@@ -55,7 +55,9 @@ export default function Emoji(){
         <ul>
             {
                 emojie.map(emoji =>(
+                   
                     <button key={emoji.emoji}>{emoji.emoji}</button>
+                    
                 ))
             }
         </ul>
