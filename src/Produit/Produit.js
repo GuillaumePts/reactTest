@@ -12,7 +12,7 @@ export default function Produit(){
 
     {
         produits.map(produit =>(
-            <span key={produit.produit}> {produit.produit}</span>
+            <span key={produit.id}> {produit.name}</span>
         ))
     }
 
