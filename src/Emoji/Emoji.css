@@ -1,0 +1,26 @@
+button {
+    font-size:2rem;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    text-shadow: 5px 5px 5px black;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transition: 0.4s;
+    
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+}
+
+
+button:hover{
+    transform: perspective(500px) translateZ(100px);
+    transition: 0.4s;
+}
