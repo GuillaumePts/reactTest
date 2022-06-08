@@ -15,8 +15,10 @@ root.render(
     <Header/>
     <Emoji/>
     <App />
-<Produit/>
+    <Produit/>
+
     <Footer/>
+
     
   </React.StrictMode>
 );

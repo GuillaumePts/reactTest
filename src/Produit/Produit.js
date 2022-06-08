@@ -1,4 +1,4 @@
-import '../produit/Produit.css'
+import '../Produit/Produit.css'
 
 const produits = [
     {name : 'Pomme' ,id:1},
@@ -9,13 +9,13 @@ const produits = [
 export default function Produit(){
     return (
         <div className='produit'>
-<ul>
+
     {
         produits.map(produit =>(
-            <a key={produit.produit}> {produit.produit} </a>
+            <span key={produit.produit}> {produit.produit}</span>
         ))
     }
-</ul>
+
         </div>
     )
 }
