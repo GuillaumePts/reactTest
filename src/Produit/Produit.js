@@ -1,4 +1,5 @@
 import '../Produit/Produit.css'
+import CardProduit from '../Card/Card';
 
 // const produits = [
 //     {name : 'Pomme' ,id:1},
@@ -54,7 +55,7 @@ const produits = [
     },
   ];
 
-
+/*
 export default function Produit(){
     return (
         <div className='produit'>
@@ -68,6 +69,21 @@ export default function Produit(){
 </ul>
         </div>
     )
-} 
+} */
 
+export default function Produit() {
+  const listeProduits = produits.map((produit) => (
+      
+      <CardProduit 
+      
+          key={produit.id}
+          image={produit.image}
+          prix={produit.prix}
+          titre={produit.titre}
+          description={produit.description}
+          avis={produit.avis}
+          />
+  ))
+  return <div className='flex'>{listeProduits}</div>;
+}
 

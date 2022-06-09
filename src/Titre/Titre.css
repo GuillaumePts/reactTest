@@ -1,0 +1,33 @@
+
+
+
+.tittle{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 10px;
+
+}
+
+.tittle h4{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #bbb;
+    text-shadow: 0 1px 1px #bbb,
+		0 2px 0 #999, 
+		0 3px 0 #888, 
+		0 4px 0 #777, 
+		0 5px 0 #666, 
+		0 6px 0 #555, 
+		0 7px 0 #444, 
+		0 8px 0 #333, 
+		0 9px 7px #302314,
+        1px 27px 6px black;
+    /* animation: lol 1s infinit linear;
+    */
+}
+

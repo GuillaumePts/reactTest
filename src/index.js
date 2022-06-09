@@ -7,7 +7,12 @@ import Header from '../src/header/header';
 import Emoji from '../src/Emoji/Emoji';
 import Produit from '../src/Produit/Produit';
 import Message from '../src/Message/Message';
-import Card from '../src/Card/Card'
+import Produit1 from '../src/Produit1/Produit1';
+import Titre from '../src/Titre/Titre';
+
+
+
+
 
 
 
@@ -19,8 +24,13 @@ root.render(
     <App />
     <App />
     <App />
-    <Produit/>
-    <Card cardInfo= 'Made in China'/>
+    <Titre tittle='China'/>
+    <Produit1/>
+    <Titre tittle='China'/>
+    <Produit />
+
+    
+    
 <Message/>
 <Message messagePasse="coucou"/>
 <Message nom='mamie'/>
